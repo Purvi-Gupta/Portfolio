@@ -349,6 +349,9 @@ span{
 }
 
 @media (max-width: 1425px){
+    .home{
+        background : none;
+    }
     nav{
         padding: 16px 3%;
         transition: .3S;
@@ -379,7 +382,7 @@ span{
     }
     .home{
         min-height: 80vh;
-        background: none;
+    
     }
     .navlist{
         position: absolute;
