@@ -379,6 +379,7 @@ span{
     }
     .home{
         min-height: 80vh;
+        background: none;
     }
     .navlist{
         position: absolute;
@@ -409,11 +410,11 @@ span{
     }
 }
 
-@media(max-width:900px){
-     .home{
-      background: none;
-    }
-}
+
+
+
+    
+
 
 @media(max-width: 800px){
     .home{
