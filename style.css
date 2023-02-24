@@ -229,7 +229,7 @@ span{
 .about-img img{
     max-width: 100%;
     border: 2px solid var(--primary-color);
-    border-radius: 45%;
+    border-radius: 50%;
     width:450px;
     height: auto;
     filter: drop-shadow(0px 0px 8px rgb(57, 57, 57));
@@ -413,6 +413,7 @@ span{
     .home{
         grid-template-columns: 1fr;
         min-height: 130vh;
+        background: none;
     }
     .home-text{
         padding-top: 55px;
