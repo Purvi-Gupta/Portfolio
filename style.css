@@ -409,11 +409,17 @@ span{
     }
 }
 
+@media(max-width:900px){
+     .home{
+      background: none;
+    }
+}
+
 @media(max-width: 800px){
     .home{
         grid-template-columns: 1fr;
         min-height: 130vh;
-        background: none;
+
     }
     .home-text{
         padding-top: 55px;
